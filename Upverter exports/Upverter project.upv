@@ -2,110 +2,6 @@
     "component_instances": [
         {
             "attributes": {
-                "refdes": "J7"
-            }, 
-            "footprint_attributes": [], 
-            "footprint_index": 0, 
-            "footprint_pos": {
-                "flip": false, 
-                "realm": "", 
-                "rotation": 0.0, 
-                "side": "top", 
-                "x": 30000000, 
-                "y": 110000000
-            }, 
-            "gen_obj_attributes": [
-                {
-                    "attributes": {
-                        "type": "center cross", 
-                        "width": "508000"
-                    }, 
-                    "flip": false, 
-                    "layer": "top component", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                {
-                    "attributes": {
-                        "antipad_expansion": "0", 
-                        "attached_net": "", 
-                        "layer_attributes": "{\"hole\":{\"shape\":\"circle\",\"height\":0,\"width\":6000000,\"tolerance_positive\":0,\"tolerance_negative\":0,\"rotation\":0},\"top solder mask\":{\"shape\":\"none\",\"height\":0,\"width\":0,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0,\"expansion\":0,\"expand_layer\":\"top copper\"},\"top copper\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"__INTERNAL_LAYERS__\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"bottom copper\":{\"shape\":\"circle\",\"height\":0,\"width\":1000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"bottom solder mask\":{\"shape\":\"none\",\"height\":0,\"width\":0,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0,\"expansion\":0,\"expand_layer\":\"bottom copper\"}}", 
-                        "non_plated": "0", 
-                        "thermal_spoke_width": "-1", 
-                        "type": "plated through hole"
-                    }, 
-                    "flip": false, 
-                    "layer": "top copper", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }
-            ], 
-            "instance_id": "82dbaeff9ad2a962", 
-            "library_id": "2c62af7a61eaf1f9", 
-            "symbol_attributes": [
-                {
-                    "annotations": [
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans-serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
-                                "text": "4mm panel mount banana socket", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "realm": "", 
-                            "rotation": 0.0, 
-                            "value": "4mm panel mount banana socket", 
-                            "visible": "true", 
-                            "x": -22, 
-                            "y": -48
-                        }, 
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans-serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
-                                "text": "J7", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "realm": "", 
-                            "rotation": 0.0, 
-                            "value": "J7", 
-                            "visible": "true", 
-                            "x": 50, 
-                            "y": 10
-                        }
-                    ], 
-                    "flip": "false", 
-                    "hidden": "false", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 230, 
-                    "y": -290
-                }
-            ], 
-            "symbol_index": 0
-        }, 
-        {
-            "attributes": {
                 "_name": "GND", 
                 "_pin_0_resolve": "local", 
                 "refdes": "?3"
@@ -245,6 +141,110 @@
                 }
             ], 
             "symbol_index": 2
+        }, 
+        {
+            "attributes": {
+                "refdes": "J7"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "footprint_pos": {
+                "flip": false, 
+                "realm": "", 
+                "rotation": 0.0, 
+                "side": "top", 
+                "x": 30000000, 
+                "y": 110000000
+            }, 
+            "gen_obj_attributes": [
+                {
+                    "attributes": {
+                        "type": "center cross", 
+                        "width": "508000"
+                    }, 
+                    "flip": false, 
+                    "layer": "top component", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                {
+                    "attributes": {
+                        "antipad_expansion": "0", 
+                        "attached_net": "", 
+                        "layer_attributes": "{\"hole\":{\"shape\":\"circle\",\"height\":0,\"width\":6000000,\"tolerance_positive\":0,\"tolerance_negative\":0,\"rotation\":0},\"top solder mask\":{\"shape\":\"none\",\"height\":0,\"width\":0,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0,\"expansion\":0,\"expand_layer\":\"top copper\"},\"top copper\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"__INTERNAL_LAYERS__\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"bottom copper\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"bottom solder mask\":{\"shape\":\"none\",\"height\":0,\"width\":0,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0,\"expansion\":0,\"expand_layer\":\"bottom copper\"}}", 
+                        "non_plated": "0", 
+                        "thermal_spoke_width": "-1", 
+                        "type": "plated through hole"
+                    }, 
+                    "flip": false, 
+                    "layer": "top copper", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }
+            ], 
+            "instance_id": "c3477e37956e15a7", 
+            "library_id": "2c9e5b48bcc68c0f", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "J7", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "realm": "", 
+                            "rotation": 0.0, 
+                            "value": "J7", 
+                            "visible": "true", 
+                            "x": 50, 
+                            "y": 10
+                        }, 
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "4mm panel mount banana socket", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "realm": "", 
+                            "rotation": 0.0, 
+                            "value": "4mm panel mount banana socket", 
+                            "visible": "true", 
+                            "x": -23, 
+                            "y": -59
+                        }
+                    ], 
+                    "flip": "false", 
+                    "hidden": "false", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": 230, 
+                    "y": -290
+                }
+            ], 
+            "symbol_index": 0
         }, 
         {
             "attributes": {
@@ -391,110 +391,6 @@
         }, 
         {
             "attributes": {
-                "refdes": "J6"
-            }, 
-            "footprint_attributes": [], 
-            "footprint_index": 0, 
-            "footprint_pos": {
-                "flip": false, 
-                "realm": "", 
-                "rotation": 0.0, 
-                "side": "top", 
-                "x": 30000000, 
-                "y": 90000000
-            }, 
-            "gen_obj_attributes": [
-                {
-                    "attributes": {
-                        "type": "center cross", 
-                        "width": "508000"
-                    }, 
-                    "flip": false, 
-                    "layer": "top component", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                {
-                    "attributes": {
-                        "antipad_expansion": "0", 
-                        "attached_net": "", 
-                        "layer_attributes": "{\"hole\":{\"shape\":\"circle\",\"height\":0,\"width\":6000000,\"tolerance_positive\":0,\"tolerance_negative\":0,\"rotation\":0},\"top solder mask\":{\"shape\":\"none\",\"height\":0,\"width\":0,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0,\"expansion\":0,\"expand_layer\":\"top copper\"},\"top copper\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"__INTERNAL_LAYERS__\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"bottom copper\":{\"shape\":\"circle\",\"height\":0,\"width\":1000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"bottom solder mask\":{\"shape\":\"none\",\"height\":0,\"width\":0,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0,\"expansion\":0,\"expand_layer\":\"bottom copper\"}}", 
-                        "non_plated": "0", 
-                        "thermal_spoke_width": "-1", 
-                        "type": "plated through hole"
-                    }, 
-                    "flip": false, 
-                    "layer": "top copper", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }
-            ], 
-            "instance_id": "15d3118182364169", 
-            "library_id": "2c62af7a61eaf1f9", 
-            "symbol_attributes": [
-                {
-                    "annotations": [
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans-serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
-                                "text": "4mm panel mount banana socket", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "realm": "", 
-                            "rotation": 0.0, 
-                            "value": "4mm panel mount banana socket", 
-                            "visible": "true", 
-                            "x": -25, 
-                            "y": -31
-                        }, 
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans-serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
-                                "text": "J6", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "realm": "", 
-                            "rotation": 0.0, 
-                            "value": "J6", 
-                            "visible": "true", 
-                            "x": 50, 
-                            "y": 10
-                        }
-                    ], 
-                    "flip": "false", 
-                    "hidden": "false", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 100, 
-                    "y": -290
-                }
-            ], 
-            "symbol_index": 0
-        }, 
-        {
-            "attributes": {
                 "_name": "+5V", 
                 "_pin_0_0_direction_0": "left", 
                 "_pin_0_resolve": "local", 
@@ -592,14 +488,14 @@
         {
             "attributes": {
                 "_name": "-12V", 
-                "_pin_0_0_direction_0": "up", 
+                "_pin_0_0_direction_0": "right", 
                 "_pin_0_resolve": "local", 
-                "refdes": "?32"
+                "refdes": "?7"
             }, 
             "footprint_attributes": [], 
             "footprint_index": 0, 
             "gen_obj_attributes": [], 
-            "instance_id": "0069b911f74190a6", 
+            "instance_id": "d9ff8de63e8d3b18", 
             "library_id": "0000000000000001", 
             "symbol_attributes": [
                 {
@@ -620,123 +516,19 @@
                                 "y": 0
                             }, 
                             "realm": "", 
-                            "rotation": 1.0, 
+                            "rotation": 1.5, 
                             "value": "-12V", 
                             "visible": "true", 
-                            "x": 22, 
-                            "y": 5
+                            "x": 15, 
+                            "y": 28
                         }
                     ], 
                     "flip": "true", 
                     "hidden": "false", 
                     "realm": "", 
-                    "rotation": 1.0, 
-                    "x": -520, 
-                    "y": -390
-                }
-            ], 
-            "symbol_index": 0
-        }, 
-        {
-            "attributes": {
-                "refdes": "J4"
-            }, 
-            "footprint_attributes": [], 
-            "footprint_index": 0, 
-            "footprint_pos": {
-                "flip": false, 
-                "realm": "", 
-                "rotation": 0.0, 
-                "side": "top", 
-                "x": 10000000, 
-                "y": 90000000
-            }, 
-            "gen_obj_attributes": [
-                {
-                    "attributes": {
-                        "type": "center cross", 
-                        "width": "508000"
-                    }, 
-                    "flip": false, 
-                    "layer": "top component", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                {
-                    "attributes": {
-                        "antipad_expansion": "0", 
-                        "attached_net": "", 
-                        "layer_attributes": "{\"hole\":{\"shape\":\"circle\",\"height\":0,\"width\":6000000,\"tolerance_positive\":0,\"tolerance_negative\":0,\"rotation\":0},\"top solder mask\":{\"shape\":\"none\",\"height\":0,\"width\":0,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0,\"expansion\":0,\"expand_layer\":\"top copper\"},\"top copper\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"__INTERNAL_LAYERS__\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"bottom copper\":{\"shape\":\"circle\",\"height\":0,\"width\":1000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"bottom solder mask\":{\"shape\":\"none\",\"height\":0,\"width\":0,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0,\"expansion\":0,\"expand_layer\":\"bottom copper\"}}", 
-                        "non_plated": "0", 
-                        "thermal_spoke_width": "-1", 
-                        "type": "plated through hole"
-                    }, 
-                    "flip": false, 
-                    "layer": "top copper", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }
-            ], 
-            "instance_id": "2d66ac7108eb2d37", 
-            "library_id": "2c62af7a61eaf1f9", 
-            "symbol_attributes": [
-                {
-                    "annotations": [
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans-serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
-                                "text": "J4", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "realm": "", 
-                            "rotation": 0.0, 
-                            "value": "J4", 
-                            "visible": "true", 
-                            "x": 50, 
-                            "y": 10
-                        }, 
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans-serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
-                                "text": "4mm panel mount banana socket", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "realm": "", 
-                            "rotation": 0.0, 
-                            "value": "4mm panel mount banana socket", 
-                            "visible": "true", 
-                            "x": -25, 
-                            "y": 46
-                        }
-                    ], 
-                    "flip": "false", 
-                    "hidden": "false", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": -160, 
-                    "y": -290
+                    "rotation": 0.5, 
+                    "x": -500, 
+                    "y": 70
                 }
             ], 
             "symbol_index": 0
@@ -1091,28 +883,6 @@
                                 "font_size": 10, 
                                 "rotation": 0.0, 
                                 "styles": {}, 
-                                "text": "C4", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "realm": "", 
-                            "rotation": 0.0, 
-                            "value": "C4", 
-                            "visible": "true", 
-                            "x": -16, 
-                            "y": 1
-                        }, 
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans-serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
                                 "text": "5v", 
                                 "type": "label", 
                                 "x": 0, 
@@ -1146,6 +916,28 @@
                             "visible": "true", 
                             "x": -26, 
                             "y": -20
+                        }, 
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "C4", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "realm": "", 
+                            "rotation": 0.0, 
+                            "value": "C4", 
+                            "visible": "true", 
+                            "x": -16, 
+                            "y": 1
                         }
                     ], 
                     "flip": "false", 
@@ -1633,6 +1425,110 @@
         }, 
         {
             "attributes": {
+                "refdes": "J6"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "footprint_pos": {
+                "flip": false, 
+                "realm": "", 
+                "rotation": 0.0, 
+                "side": "top", 
+                "x": 30000000, 
+                "y": 90000000
+            }, 
+            "gen_obj_attributes": [
+                {
+                    "attributes": {
+                        "type": "center cross", 
+                        "width": "508000"
+                    }, 
+                    "flip": false, 
+                    "layer": "top component", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                {
+                    "attributes": {
+                        "antipad_expansion": "0", 
+                        "attached_net": "", 
+                        "layer_attributes": "{\"hole\":{\"shape\":\"circle\",\"height\":0,\"width\":6000000,\"tolerance_positive\":0,\"tolerance_negative\":0,\"rotation\":0},\"top solder mask\":{\"shape\":\"none\",\"height\":0,\"width\":0,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0,\"expansion\":0,\"expand_layer\":\"top copper\"},\"top copper\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"__INTERNAL_LAYERS__\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"bottom copper\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"bottom solder mask\":{\"shape\":\"none\",\"height\":0,\"width\":0,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0,\"expansion\":0,\"expand_layer\":\"bottom copper\"}}", 
+                        "non_plated": "0", 
+                        "thermal_spoke_width": "-1", 
+                        "type": "plated through hole"
+                    }, 
+                    "flip": false, 
+                    "layer": "top copper", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }
+            ], 
+            "instance_id": "b241442b682e5fd9", 
+            "library_id": "2c9e5b48bcc68c0f", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "4mm panel mount banana socket", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "realm": "", 
+                            "rotation": 0.0, 
+                            "value": "4mm panel mount banana socket", 
+                            "visible": "true", 
+                            "x": -23, 
+                            "y": -36
+                        }, 
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "J6", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "realm": "", 
+                            "rotation": 0.0, 
+                            "value": "J6", 
+                            "visible": "true", 
+                            "x": 50, 
+                            "y": 10
+                        }
+                    ], 
+                    "flip": "false", 
+                    "hidden": "false", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": 100, 
+                    "y": -290
+                }
+            ], 
+            "symbol_index": 0
+        }, 
+        {
+            "attributes": {
                 "_dnp": "yes", 
                 "_footprint_type": "1206 (3216 metric)", 
                 "_nobom": "false", 
@@ -1762,28 +1658,6 @@
                                 "font_size": 10, 
                                 "rotation": 0.0, 
                                 "styles": {}, 
-                                "text": "C6", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "realm": "", 
-                            "rotation": 0.0, 
-                            "value": "C6", 
-                            "visible": "true", 
-                            "x": 24, 
-                            "y": 1
-                        }, 
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans-serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
                                 "text": "10uF", 
                                 "type": "label", 
                                 "x": 0, 
@@ -1795,6 +1669,28 @@
                             "visible": "true", 
                             "x": 24, 
                             "y": -20
+                        }, 
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "C6", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "realm": "", 
+                            "rotation": 0.0, 
+                            "value": "C6", 
+                            "visible": "true", 
+                            "x": 24, 
+                            "y": 1
                         }
                     ], 
                     "flip": "false", 
@@ -2879,15 +2775,98 @@
         }, 
         {
             "attributes": {
-                "_name": "GND", 
-                "_pin_0_resolve": "local", 
-                "refdes": "?1"
+                "_dnp": "no", 
+                "_nobom": "true", 
+                "refdes": "M2"
             }, 
-            "footprint_attributes": [], 
+            "footprint_attributes": [
+                {
+                    "flip": false, 
+                    "layer": "bottom courtyard", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                {
+                    "flip": false, 
+                    "layer": "top courtyard", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                {
+                    "flip": false, 
+                    "layer": "top keepout", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                {
+                    "flip": false, 
+                    "layer": "bottom keepout", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }
+            ], 
             "footprint_index": 0, 
-            "gen_obj_attributes": [], 
-            "instance_id": "2db3a82d14092563", 
-            "library_id": "0000000000000001", 
+            "footprint_pos": {
+                "flip": false, 
+                "realm": "", 
+                "rotation": 0.0, 
+                "side": "top", 
+                "x": 32900000, 
+                "y": 125500000
+            }, 
+            "gen_obj_attributes": [
+                {
+                    "attributes": {
+                        "type": "center cross", 
+                        "width": "10000000"
+                    }, 
+                    "flip": false, 
+                    "layer": "top component", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                {
+                    "attributes": {
+                        "antipad_diameter": "0", 
+                        "antipad_expansion": "0", 
+                        "attached_layers": "", 
+                        "attached_net": "", 
+                        "hole_length": "0", 
+                        "hole_shape": "circle", 
+                        "hole_width": "0", 
+                        "internal_diameter": "3200000", 
+                        "non_plated": "1", 
+                        "plating_diameter": "3200000", 
+                        "plating_length": "0", 
+                        "plating_radius": "0", 
+                        "plating_shape": "circle", 
+                        "plating_width": "0", 
+                        "solder_mask_expansion": "0", 
+                        "tenting_bottom": "0", 
+                        "tenting_top": "0", 
+                        "thermal_spoke_width": "-1", 
+                        "type": "plated through hole"
+                    }, 
+                    "flip": false, 
+                    "layer": "top copper", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }
+            ], 
+            "instance_id": "c1a0b31987059e51", 
+            "library_id": "bfdac3ddb53e83d2", 
             "symbol_attributes": [
                 {
                     "annotations": [
@@ -2901,28 +2880,50 @@
                                 "font_size": 10, 
                                 "rotation": 0.0, 
                                 "styles": {}, 
-                                "text": "GND", 
+                                "text": "M2", 
                                 "type": "label", 
                                 "x": 0, 
                                 "y": 0
                             }, 
                             "realm": "", 
                             "rotation": 0.0, 
-                            "value": "GND", 
+                            "value": "M2", 
                             "visible": "true", 
-                            "x": 0, 
-                            "y": -30
+                            "x": -40, 
+                            "y": -20
+                        }, 
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "Mounting hole M3 - Non-plated", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "realm": "", 
+                            "rotation": 0.0, 
+                            "value": "Mounting hole M3 - Non-plated", 
+                            "visible": "true", 
+                            "x": -70, 
+                            "y": 40
                         }
                     ], 
                     "flip": "false", 
                     "hidden": "false", 
                     "realm": "", 
                     "rotation": 0.0, 
-                    "x": -510, 
-                    "y": -130
+                    "x": 590, 
+                    "y": -240
                 }
             ], 
-            "symbol_index": 2
+            "symbol_index": 0
         }, 
         {
             "attributes": {
@@ -3022,6 +3023,214 @@
         }, 
         {
             "attributes": {
+                "refdes": "J4"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "footprint_pos": {
+                "flip": false, 
+                "realm": "", 
+                "rotation": 0.0, 
+                "side": "top", 
+                "x": 10000000, 
+                "y": 90000000
+            }, 
+            "gen_obj_attributes": [
+                {
+                    "attributes": {
+                        "type": "center cross", 
+                        "width": "508000"
+                    }, 
+                    "flip": false, 
+                    "layer": "top component", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                {
+                    "attributes": {
+                        "antipad_expansion": "0", 
+                        "attached_net": "", 
+                        "layer_attributes": "{\"hole\":{\"shape\":\"circle\",\"height\":0,\"width\":6000000,\"tolerance_positive\":0,\"tolerance_negative\":0,\"rotation\":0},\"top solder mask\":{\"shape\":\"none\",\"height\":0,\"width\":0,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0,\"expansion\":0,\"expand_layer\":\"top copper\"},\"top copper\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"__INTERNAL_LAYERS__\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"bottom copper\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"bottom solder mask\":{\"shape\":\"none\",\"height\":0,\"width\":0,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0,\"expansion\":0,\"expand_layer\":\"bottom copper\"}}", 
+                        "non_plated": "0", 
+                        "thermal_spoke_width": "-1", 
+                        "type": "plated through hole"
+                    }, 
+                    "flip": false, 
+                    "layer": "top copper", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }
+            ], 
+            "instance_id": "f9bbf3315508fa7f", 
+            "library_id": "2c9e5b48bcc68c0f", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "J4", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "realm": "", 
+                            "rotation": 0.0, 
+                            "value": "J4", 
+                            "visible": "true", 
+                            "x": 50, 
+                            "y": 10
+                        }, 
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "4mm panel mount banana socket", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "realm": "", 
+                            "rotation": 0.0, 
+                            "value": "4mm panel mount banana socket", 
+                            "visible": "true", 
+                            "x": -20, 
+                            "y": 33
+                        }
+                    ], 
+                    "flip": "false", 
+                    "hidden": "false", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": -160, 
+                    "y": -290
+                }
+            ], 
+            "symbol_index": 0
+        }, 
+        {
+            "attributes": {
+                "refdes": "J5"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "footprint_pos": {
+                "flip": false, 
+                "realm": "", 
+                "rotation": 0.0, 
+                "side": "top", 
+                "x": 10000000, 
+                "y": 110000000
+            }, 
+            "gen_obj_attributes": [
+                {
+                    "attributes": {
+                        "type": "center cross", 
+                        "width": "508000"
+                    }, 
+                    "flip": false, 
+                    "layer": "top component", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }, 
+                {
+                    "attributes": {
+                        "antipad_expansion": "0", 
+                        "attached_net": "", 
+                        "layer_attributes": "{\"hole\":{\"shape\":\"circle\",\"height\":0,\"width\":6000000,\"tolerance_positive\":0,\"tolerance_negative\":0,\"rotation\":0},\"top solder mask\":{\"shape\":\"none\",\"height\":0,\"width\":0,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0,\"expansion\":0,\"expand_layer\":\"top copper\"},\"top copper\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"__INTERNAL_LAYERS__\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"bottom copper\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"bottom solder mask\":{\"shape\":\"none\",\"height\":0,\"width\":0,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0,\"expansion\":0,\"expand_layer\":\"bottom copper\"}}", 
+                        "non_plated": "0", 
+                        "thermal_spoke_width": "-1", 
+                        "type": "plated through hole"
+                    }, 
+                    "flip": false, 
+                    "layer": "top copper", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": 0, 
+                    "y": 0
+                }
+            ], 
+            "instance_id": "aac74423294abaec", 
+            "library_id": "2c9e5b48bcc68c0f", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "J5", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "realm": "", 
+                            "rotation": 0.0, 
+                            "value": "J5", 
+                            "visible": "true", 
+                            "x": 50, 
+                            "y": 10
+                        }, 
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "4mm panel mount banana socket", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "realm": "", 
+                            "rotation": 0.0, 
+                            "value": "4mm panel mount banana socket", 
+                            "visible": "true", 
+                            "x": -26, 
+                            "y": 50
+                        }
+                    ], 
+                    "flip": "false", 
+                    "hidden": "false", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": -30, 
+                    "y": -290
+                }
+            ], 
+            "symbol_index": 0
+        }, 
+        {
+            "attributes": {
                 "_name": "+12V", 
                 "_pin_0_0_direction_0": "down", 
                 "_pin_0_resolve": "local", 
@@ -3114,110 +3323,6 @@
                 }
             ], 
             "symbol_index": 2
-        }, 
-        {
-            "attributes": {
-                "refdes": "J5"
-            }, 
-            "footprint_attributes": [], 
-            "footprint_index": 0, 
-            "footprint_pos": {
-                "flip": false, 
-                "realm": "", 
-                "rotation": 0.0, 
-                "side": "top", 
-                "x": 10000000, 
-                "y": 110000000
-            }, 
-            "gen_obj_attributes": [
-                {
-                    "attributes": {
-                        "type": "center cross", 
-                        "width": "508000"
-                    }, 
-                    "flip": false, 
-                    "layer": "top component", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                {
-                    "attributes": {
-                        "antipad_expansion": "0", 
-                        "attached_net": "", 
-                        "layer_attributes": "{\"hole\":{\"shape\":\"circle\",\"height\":0,\"width\":6000000,\"tolerance_positive\":0,\"tolerance_negative\":0,\"rotation\":0},\"top solder mask\":{\"shape\":\"none\",\"height\":0,\"width\":0,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0,\"expansion\":0,\"expand_layer\":\"top copper\"},\"top copper\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"__INTERNAL_LAYERS__\":{\"shape\":\"circle\",\"height\":0,\"width\":11000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"bottom copper\":{\"shape\":\"circle\",\"height\":0,\"width\":1000000,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0},\"bottom solder mask\":{\"shape\":\"none\",\"height\":0,\"width\":0,\"corner_radius\":0,\"offset_x\":0,\"offset_y\":0,\"expansion\":0,\"expand_layer\":\"bottom copper\"}}", 
-                        "non_plated": "0", 
-                        "thermal_spoke_width": "-1", 
-                        "type": "plated through hole"
-                    }, 
-                    "flip": false, 
-                    "layer": "top copper", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }
-            ], 
-            "instance_id": "8cad6e13eb1ba22a", 
-            "library_id": "2c62af7a61eaf1f9", 
-            "symbol_attributes": [
-                {
-                    "annotations": [
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans-serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
-                                "text": "J5", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "realm": "", 
-                            "rotation": 0.0, 
-                            "value": "J5", 
-                            "visible": "true", 
-                            "x": 50, 
-                            "y": 10
-                        }, 
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans-serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
-                                "text": "4mm panel mount banana socket", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "realm": "", 
-                            "rotation": 0.0, 
-                            "value": "4mm panel mount banana socket", 
-                            "visible": "true", 
-                            "x": -24, 
-                            "y": 28
-                        }
-                    ], 
-                    "flip": "false", 
-                    "hidden": "false", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": -30, 
-                    "y": -290
-                }
-            ], 
-            "symbol_index": 0
         }, 
         {
             "attributes": {
@@ -4185,28 +4290,6 @@
                                 "font_size": 10, 
                                 "rotation": 0.0, 
                                 "styles": {}, 
-                                "text": "5v", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "realm": "", 
-                            "rotation": 0.0, 
-                            "value": "5v", 
-                            "visible": "true", 
-                            "x": 24, 
-                            "y": -10
-                        }, 
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans-serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
                                 "text": "0.1uF", 
                                 "type": "label", 
                                 "x": 0, 
@@ -4218,6 +4301,28 @@
                             "visible": "true", 
                             "x": 22, 
                             "y": -20
+                        }, 
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "5v", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "realm": "", 
+                            "rotation": 0.0, 
+                            "value": "5v", 
+                            "visible": "true", 
+                            "x": 24, 
+                            "y": -10
                         }
                     ], 
                     "flip": "false", 
@@ -4825,14 +4930,14 @@
         {
             "attributes": {
                 "_name": "-12V", 
-                "_pin_0_0_direction_0": "right", 
+                "_pin_0_0_direction_0": "up", 
                 "_pin_0_resolve": "local", 
-                "refdes": "?7"
+                "refdes": "?32"
             }, 
             "footprint_attributes": [], 
             "footprint_index": 0, 
             "gen_obj_attributes": [], 
-            "instance_id": "d9ff8de63e8d3b18", 
+            "instance_id": "0069b911f74190a6", 
             "library_id": "0000000000000001", 
             "symbol_attributes": [
                 {
@@ -4853,22 +4958,116 @@
                                 "y": 0
                             }, 
                             "realm": "", 
-                            "rotation": 1.5, 
+                            "rotation": 1.0, 
                             "value": "-12V", 
                             "visible": "true", 
-                            "x": 15, 
-                            "y": 28
+                            "x": 22, 
+                            "y": 5
                         }
                     ], 
                     "flip": "true", 
                     "hidden": "false", 
                     "realm": "", 
-                    "rotation": 0.5, 
-                    "x": -500, 
-                    "y": 70
+                    "rotation": 1.0, 
+                    "x": -520, 
+                    "y": -390
                 }
             ], 
             "symbol_index": 0
+        }, 
+        {
+            "attributes": {
+                "_name": "+12V", 
+                "_pin_0_resolve": "local", 
+                "refdes": "?34"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "gen_obj_attributes": [], 
+            "instance_id": "718665ea9c3c9e8e", 
+            "library_id": "0000000000000001", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "+12V", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "realm": "", 
+                            "rotation": 0.0, 
+                            "value": "+12V", 
+                            "visible": "true", 
+                            "x": -1, 
+                            "y": 16
+                        }
+                    ], 
+                    "flip": "false", 
+                    "hidden": "false", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": -520, 
+                    "y": -230
+                }
+            ], 
+            "symbol_index": 0
+        }, 
+        {
+            "attributes": {
+                "_name": "GND", 
+                "_pin_0_resolve": "local", 
+                "refdes": "?1"
+            }, 
+            "footprint_attributes": [], 
+            "footprint_index": 0, 
+            "gen_obj_attributes": [], 
+            "instance_id": "2db3a82d14092563", 
+            "library_id": "0000000000000001", 
+            "symbol_attributes": [
+                {
+                    "annotations": [
+                        {
+                            "flip": false, 
+                            "label": {
+                                "align": "left", 
+                                "baseline": "alphabetic", 
+                                "flip": false, 
+                                "font_family": "sans-serif", 
+                                "font_size": 10, 
+                                "rotation": 0.0, 
+                                "styles": {}, 
+                                "text": "GND", 
+                                "type": "label", 
+                                "x": 0, 
+                                "y": 0
+                            }, 
+                            "realm": "", 
+                            "rotation": 0.0, 
+                            "value": "GND", 
+                            "visible": "true", 
+                            "x": 0, 
+                            "y": -30
+                        }
+                    ], 
+                    "flip": "false", 
+                    "hidden": "false", 
+                    "realm": "", 
+                    "rotation": 0.0, 
+                    "x": -510, 
+                    "y": -130
+                }
+            ], 
+            "symbol_index": 2
         }, 
         {
             "attributes": {
@@ -4980,17 +5179,17 @@
                                 "font_size": 10, 
                                 "rotation": 0.0, 
                                 "styles": {}, 
-                                "text": "5v", 
+                                "text": "0.1uF", 
                                 "type": "label", 
                                 "x": 0, 
                                 "y": 0
                             }, 
                             "realm": "", 
                             "rotation": 0.0, 
-                            "value": "5v", 
+                            "value": "0.1uF", 
                             "visible": "true", 
                             "x": 24, 
-                            "y": -10
+                            "y": -20
                         }, 
                         {
                             "flip": false, 
@@ -5024,17 +5223,17 @@
                                 "font_size": 10, 
                                 "rotation": 0.0, 
                                 "styles": {}, 
-                                "text": "0.1uF", 
+                                "text": "5v", 
                                 "type": "label", 
                                 "x": 0, 
                                 "y": 0
                             }, 
                             "realm": "", 
                             "rotation": 0.0, 
-                            "value": "0.1uF", 
+                            "value": "5v", 
                             "visible": "true", 
                             "x": 24, 
-                            "y": -20
+                            "y": -10
                         }
                     ], 
                     "flip": "false", 
@@ -5043,205 +5242,6 @@
                     "rotation": 0.0, 
                     "x": -300, 
                     "y": -290
-                }
-            ], 
-            "symbol_index": 0
-        }, 
-        {
-            "attributes": {
-                "_dnp": "no", 
-                "_nobom": "true", 
-                "refdes": "M2"
-            }, 
-            "footprint_attributes": [
-                {
-                    "flip": false, 
-                    "layer": "bottom courtyard", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                {
-                    "flip": false, 
-                    "layer": "top courtyard", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                {
-                    "flip": false, 
-                    "layer": "top keepout", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                {
-                    "flip": false, 
-                    "layer": "bottom keepout", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }
-            ], 
-            "footprint_index": 0, 
-            "footprint_pos": {
-                "flip": false, 
-                "realm": "", 
-                "rotation": 0.0, 
-                "side": "top", 
-                "x": 32900000, 
-                "y": 125500000
-            }, 
-            "gen_obj_attributes": [
-                {
-                    "attributes": {
-                        "type": "center cross", 
-                        "width": "10000000"
-                    }, 
-                    "flip": false, 
-                    "layer": "top component", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }, 
-                {
-                    "attributes": {
-                        "antipad_diameter": "0", 
-                        "antipad_expansion": "0", 
-                        "attached_layers": "", 
-                        "attached_net": "", 
-                        "hole_length": "0", 
-                        "hole_shape": "circle", 
-                        "hole_width": "0", 
-                        "internal_diameter": "3200000", 
-                        "non_plated": "1", 
-                        "plating_diameter": "3200000", 
-                        "plating_length": "0", 
-                        "plating_radius": "0", 
-                        "plating_shape": "circle", 
-                        "plating_width": "0", 
-                        "solder_mask_expansion": "0", 
-                        "tenting_bottom": "0", 
-                        "tenting_top": "0", 
-                        "thermal_spoke_width": "-1", 
-                        "type": "plated through hole"
-                    }, 
-                    "flip": false, 
-                    "layer": "top copper", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 0, 
-                    "y": 0
-                }
-            ], 
-            "instance_id": "c1a0b31987059e51", 
-            "library_id": "bfdac3ddb53e83d2", 
-            "symbol_attributes": [
-                {
-                    "annotations": [
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans-serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
-                                "text": "M2", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "realm": "", 
-                            "rotation": 0.0, 
-                            "value": "M2", 
-                            "visible": "true", 
-                            "x": -40, 
-                            "y": -20
-                        }, 
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans-serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
-                                "text": "Mounting hole M3 - Non-plated", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "realm": "", 
-                            "rotation": 0.0, 
-                            "value": "Mounting hole M3 - Non-plated", 
-                            "visible": "true", 
-                            "x": -70, 
-                            "y": 40
-                        }
-                    ], 
-                    "flip": "false", 
-                    "hidden": "false", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": 590, 
-                    "y": -240
-                }
-            ], 
-            "symbol_index": 0
-        }, 
-        {
-            "attributes": {
-                "_name": "+12V", 
-                "_pin_0_resolve": "local", 
-                "refdes": "?34"
-            }, 
-            "footprint_attributes": [], 
-            "footprint_index": 0, 
-            "gen_obj_attributes": [], 
-            "instance_id": "718665ea9c3c9e8e", 
-            "library_id": "0000000000000001", 
-            "symbol_attributes": [
-                {
-                    "annotations": [
-                        {
-                            "flip": false, 
-                            "label": {
-                                "align": "left", 
-                                "baseline": "alphabetic", 
-                                "flip": false, 
-                                "font_family": "sans-serif", 
-                                "font_size": 10, 
-                                "rotation": 0.0, 
-                                "styles": {}, 
-                                "text": "+12V", 
-                                "type": "label", 
-                                "x": 0, 
-                                "y": 0
-                            }, 
-                            "realm": "", 
-                            "rotation": 0.0, 
-                            "value": "+12V", 
-                            "visible": "true", 
-                            "x": -1, 
-                            "y": 16
-                        }
-                    ], 
-                    "flip": "false", 
-                    "hidden": "false", 
-                    "realm": "", 
-                    "rotation": 0.0, 
-                    "x": -520, 
-                    "y": -230
                 }
             ], 
             "symbol_index": 0
@@ -9711,7 +9711,7 @@
                 }
             ]
         }, 
-        "2c62af7a61eaf1f9": {
+        "2c9e5b48bcc68c0f": {
             "attributes": {
                 "_category": "Conn", 
                 "_datasheet": "https://github.com/PhilboBaggins/components/blob/main/Connectors/4mm%20Banana%20panel%20mount%20socket.md", 
@@ -9765,7 +9765,7 @@
                             "attributes": {
                                 "antipad_expansion": "0", 
                                 "attached_net": "", 
-                                "layer_attributes": "{\"top solder mask\": {\"corner_radius\": 0, \"expansion\": 0, \"height\": 0, \"width\": 0, \"shape\": \"none\", \"offset_x\": 0, \"offset_y\": 0, \"expand_layer\": \"top copper\"}, \"top copper\": {\"corner_radius\": 0, \"height\": 0, \"width\": 11000000, \"shape\": \"circle\", \"offset_x\": 0, \"offset_y\": 0}, \"bottom solder mask\": {\"corner_radius\": 0, \"expansion\": 0, \"height\": 0, \"width\": 0, \"shape\": \"none\", \"offset_x\": 0, \"offset_y\": 0, \"expand_layer\": \"bottom copper\"}, \"bottom copper\": {\"corner_radius\": 0, \"height\": 0, \"width\": 1000000, \"shape\": \"circle\", \"offset_x\": 0, \"offset_y\": 0}, \"hole\": {\"height\": 0, \"width\": 6000000, \"shape\": \"circle\", \"tolerance_positive\": 0, \"tolerance_negative\": 0, \"rotation\": 0}, \"__INTERNAL_LAYERS__\": {\"corner_radius\": 0, \"height\": 0, \"width\": 11000000, \"shape\": \"circle\", \"offset_x\": 0, \"offset_y\": 0}}", 
+                                "layer_attributes": "{\"top solder mask\": {\"corner_radius\": 0, \"expansion\": 0, \"height\": 0, \"width\": 0, \"shape\": \"none\", \"offset_x\": 0, \"offset_y\": 0, \"expand_layer\": \"top copper\"}, \"top copper\": {\"corner_radius\": 0, \"height\": 0, \"width\": 11000000, \"shape\": \"circle\", \"offset_x\": 0, \"offset_y\": 0}, \"bottom solder mask\": {\"corner_radius\": 0, \"expansion\": 0, \"height\": 0, \"width\": 0, \"shape\": \"none\", \"offset_x\": 0, \"offset_y\": 0, \"expand_layer\": \"bottom copper\"}, \"bottom copper\": {\"corner_radius\": 0, \"height\": 0, \"width\": 11000000, \"shape\": \"circle\", \"offset_x\": 0, \"offset_y\": 0}, \"hole\": {\"height\": 0, \"width\": 6000000, \"shape\": \"circle\", \"tolerance_positive\": 0, \"tolerance_negative\": 0, \"rotation\": 0}, \"__INTERNAL_LAYERS__\": {\"corner_radius\": 0, \"height\": 0, \"width\": 11000000, \"shape\": \"circle\", \"offset_x\": 0, \"offset_y\": 0}}", 
                                 "non_plated": "0", 
                                 "thermal_spoke_width": "-1", 
                                 "type": "plated through hole"
@@ -13136,7 +13136,7 @@
             "name": "Eurorack power output - 8HP", 
             "owner": "Trebuchetindustries", 
             "slug": "Eurorack-power-output---8HP", 
-            "updated_timestamp": 1607795310
+            "updated_timestamp": 1609874212
         }
     }, 
     "extra_pcb_data_blobs": [], 
@@ -13247,6 +13247,27 @@
             "rotation": 0.0, 
             "x": 2000000, 
             "y": 68000000
+        }, 
+        {
+            "attributes": {
+                "attached_layers": "top copper,bottom copper", 
+                "attached_net": "GND", 
+                "end_layer": "bottom copper", 
+                "internal_diameter": "330200", 
+                "plating_diameter": "711200", 
+                "solder_mask_expansion": "0", 
+                "start_layer": "top copper", 
+                "tenting_bottom": "1", 
+                "tenting_top": "1", 
+                "type": "via"
+            }, 
+            "connection_indexes": null, 
+            "flip": false, 
+            "layer": "via", 
+            "realm": "", 
+            "rotation": 0.0, 
+            "x": 10000000, 
+            "y": 102000000
         }, 
         {
             "attributes": {
@@ -13434,7 +13455,7 @@
             "layer": "via", 
             "realm": "", 
             "rotation": 0.0, 
-            "x": 2000000, 
+            "x": 20000000, 
             "y": 84000000
         }, 
         {
@@ -13457,6 +13478,27 @@
             "rotation": 0.0, 
             "x": 14000000, 
             "y": 102000000
+        }, 
+        {
+            "attributes": {
+                "attached_layers": "top copper,bottom copper", 
+                "attached_net": "GND", 
+                "end_layer": "bottom copper", 
+                "internal_diameter": "330200", 
+                "plating_diameter": "711200", 
+                "solder_mask_expansion": "0", 
+                "start_layer": "top copper", 
+                "tenting_bottom": "1", 
+                "tenting_top": "1", 
+                "type": "via"
+            }, 
+            "connection_indexes": null, 
+            "flip": false, 
+            "layer": "via", 
+            "realm": "", 
+            "rotation": 0.0, 
+            "x": 2000000, 
+            "y": 76000000
         }, 
         {
             "attributes": {
@@ -13623,27 +13665,6 @@
             "layer": "via", 
             "realm": "", 
             "rotation": 0.0, 
-            "x": 10000000, 
-            "y": 102000000
-        }, 
-        {
-            "attributes": {
-                "attached_layers": "top copper,bottom copper", 
-                "attached_net": "GND", 
-                "end_layer": "bottom copper", 
-                "internal_diameter": "330200", 
-                "plating_diameter": "711200", 
-                "solder_mask_expansion": "0", 
-                "start_layer": "top copper", 
-                "tenting_bottom": "1", 
-                "tenting_top": "1", 
-                "type": "via"
-            }, 
-            "connection_indexes": null, 
-            "flip": false, 
-            "layer": "via", 
-            "realm": "", 
-            "rotation": 0.0, 
             "x": 34000000, 
             "y": 102000000
         }, 
@@ -13749,27 +13770,6 @@
             "layer": "via", 
             "realm": "", 
             "rotation": 0.0, 
-            "x": 2000000, 
-            "y": 48000000
-        }, 
-        {
-            "attributes": {
-                "attached_layers": "top copper,bottom copper", 
-                "attached_net": "GND", 
-                "end_layer": "bottom copper", 
-                "internal_diameter": "330200", 
-                "plating_diameter": "711200", 
-                "solder_mask_expansion": "0", 
-                "start_layer": "top copper", 
-                "tenting_bottom": "1", 
-                "tenting_top": "1", 
-                "type": "via"
-            }, 
-            "connection_indexes": null, 
-            "flip": false, 
-            "layer": "via", 
-            "realm": "", 
-            "rotation": 0.0, 
             "x": 20000000, 
             "y": 92000000
         }, 
@@ -13812,8 +13812,8 @@
             "layer": "via", 
             "realm": "", 
             "rotation": 0.0, 
-            "x": 22100000, 
-            "y": 46700000
+            "x": 27305000, 
+            "y": 22860000
         }, 
         {
             "attributes": {
@@ -13875,8 +13875,8 @@
             "layer": "via", 
             "realm": "", 
             "rotation": 0.0, 
-            "x": 6000000, 
-            "y": 24000000
+            "x": 2000000, 
+            "y": 104000000
         }, 
         {
             "attributes": {
@@ -13960,7 +13960,7 @@
             "realm": "", 
             "rotation": 0.0, 
             "x": 2000000, 
-            "y": 116000000
+            "y": 40000000
         }, 
         {
             "attributes": {
@@ -13980,8 +13980,8 @@
             "layer": "via", 
             "realm": "", 
             "rotation": 0.0, 
-            "x": 2000000, 
-            "y": 40000000
+            "x": 18000000, 
+            "y": 102000000
         }, 
         {
             "attributes": {
@@ -14043,8 +14043,8 @@
             "layer": "via", 
             "realm": "", 
             "rotation": 0.0, 
-            "x": 2000000, 
-            "y": 104000000
+            "x": 6000000, 
+            "y": 24000000
         }, 
         {
             "attributes": {
@@ -14085,8 +14085,8 @@
             "layer": "via", 
             "realm": "", 
             "rotation": 0.0, 
-            "x": 38000000, 
-            "y": 36000000
+            "x": 12500000, 
+            "y": 17500000
         }, 
         {
             "attributes": {
@@ -14108,6 +14108,27 @@
             "rotation": 0.0, 
             "x": 20000000, 
             "y": 88000000
+        }, 
+        {
+            "attributes": {
+                "attached_layers": "top copper,bottom copper", 
+                "attached_net": "GND", 
+                "end_layer": "bottom copper", 
+                "internal_diameter": "330200", 
+                "plating_diameter": "711200", 
+                "solder_mask_expansion": "0", 
+                "start_layer": "top copper", 
+                "tenting_bottom": "1", 
+                "tenting_top": "1", 
+                "type": "via"
+            }, 
+            "connection_indexes": null, 
+            "flip": false, 
+            "layer": "via", 
+            "realm": "", 
+            "rotation": 0.0, 
+            "x": 2000000, 
+            "y": 48000000
         }, 
         {
             "attributes": {
@@ -14295,7 +14316,7 @@
             "layer": "via", 
             "realm": "", 
             "rotation": 0.0, 
-            "x": 20000000, 
+            "x": 2000000, 
             "y": 84000000
         }, 
         {
@@ -14400,27 +14421,6 @@
             "layer": "via", 
             "realm": "", 
             "rotation": 0.0, 
-            "x": 18000000, 
-            "y": 102000000
-        }, 
-        {
-            "attributes": {
-                "attached_layers": "top copper,bottom copper", 
-                "attached_net": "GND", 
-                "end_layer": "bottom copper", 
-                "internal_diameter": "330200", 
-                "plating_diameter": "711200", 
-                "solder_mask_expansion": "0", 
-                "start_layer": "top copper", 
-                "tenting_bottom": "1", 
-                "tenting_top": "1", 
-                "type": "via"
-            }, 
-            "connection_indexes": null, 
-            "flip": false, 
-            "layer": "via", 
-            "realm": "", 
-            "rotation": 0.0, 
             "x": 2000000, 
             "y": 80000000
         }, 
@@ -14463,8 +14463,8 @@
             "layer": "via", 
             "realm": "", 
             "rotation": 0.0, 
-            "x": 14605000, 
-            "y": 20090000
+            "x": 2000000, 
+            "y": 92000000
         }, 
         {
             "attributes": {
@@ -14484,8 +14484,8 @@
             "layer": "via", 
             "realm": "", 
             "rotation": 0.0, 
-            "x": 2000000, 
-            "y": 92000000
+            "x": 30000000, 
+            "y": 24000000
         }, 
         {
             "attributes": {
@@ -14737,49 +14737,7 @@
             "realm": "", 
             "rotation": 0.0, 
             "x": 2000000, 
-            "y": 76000000
-        }, 
-        {
-            "attributes": {
-                "attached_layers": "top copper,bottom copper", 
-                "attached_net": "GND", 
-                "end_layer": "bottom copper", 
-                "internal_diameter": "330200", 
-                "plating_diameter": "711200", 
-                "solder_mask_expansion": "0", 
-                "start_layer": "top copper", 
-                "tenting_bottom": "1", 
-                "tenting_top": "1", 
-                "type": "via"
-            }, 
-            "connection_indexes": null, 
-            "flip": false, 
-            "layer": "via", 
-            "realm": "", 
-            "rotation": 0.0, 
-            "x": 2000000, 
             "y": 60000000
-        }, 
-        {
-            "attributes": {
-                "attached_layers": "top copper,bottom copper", 
-                "attached_net": "GND", 
-                "end_layer": "bottom copper", 
-                "internal_diameter": "330200", 
-                "plating_diameter": "711200", 
-                "solder_mask_expansion": "0", 
-                "start_layer": "top copper", 
-                "tenting_bottom": "1", 
-                "tenting_top": "1", 
-                "type": "via"
-            }, 
-            "connection_indexes": null, 
-            "flip": false, 
-            "layer": "via", 
-            "realm": "", 
-            "rotation": 0.0, 
-            "x": 20000000, 
-            "y": 104000000
         }, 
         {
             "attributes": {
@@ -14820,8 +14778,29 @@
             "layer": "via", 
             "realm": "", 
             "rotation": 0.0, 
-            "x": 30000000, 
-            "y": 24000000
+            "x": 14605000, 
+            "y": 20090000
+        }, 
+        {
+            "attributes": {
+                "attached_layers": "top copper,bottom copper", 
+                "attached_net": "GND", 
+                "end_layer": "bottom copper", 
+                "internal_diameter": "330200", 
+                "plating_diameter": "711200", 
+                "solder_mask_expansion": "0", 
+                "start_layer": "top copper", 
+                "tenting_bottom": "1", 
+                "tenting_top": "1", 
+                "type": "via"
+            }, 
+            "connection_indexes": null, 
+            "flip": false, 
+            "layer": "via", 
+            "realm": "", 
+            "rotation": 0.0, 
+            "x": 20000000, 
+            "y": 104000000
         }, 
         {
             "attributes": {
@@ -15030,8 +15009,8 @@
             "layer": "via", 
             "realm": "", 
             "rotation": 0.0, 
-            "x": 27305000, 
-            "y": 22860000
+            "x": 22100000, 
+            "y": 46700000
         }, 
         {
             "attributes": {
@@ -15093,8 +15072,29 @@
             "layer": "via", 
             "realm": "", 
             "rotation": 0.0, 
-            "x": 12500000, 
-            "y": 17500000
+            "x": 2000000, 
+            "y": 116000000
+        }, 
+        {
+            "attributes": {
+                "attached_layers": "top copper,bottom copper", 
+                "attached_net": "GND", 
+                "end_layer": "bottom copper", 
+                "internal_diameter": "330200", 
+                "plating_diameter": "711200", 
+                "solder_mask_expansion": "0", 
+                "start_layer": "top copper", 
+                "tenting_bottom": "1", 
+                "tenting_top": "1", 
+                "type": "via"
+            }, 
+            "connection_indexes": null, 
+            "flip": false, 
+            "layer": "via", 
+            "realm": "", 
+            "rotation": 0.0, 
+            "x": 38000000, 
+            "y": 36000000
         }, 
         {
             "attributes": {
@@ -16039,20 +16039,9 @@
         {
             "annotations": [], 
             "attributes": {}, 
-            "net_id": "cd9eb2098a3ed4fa", 
+            "net_id": "c33e520ea844a806", 
             "net_type": "nets", 
             "points": [
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "c63bcb2dd435e6be", 
-                        "c8bc5d99fe853f65"
-                    ], 
-                    "point_id": "c31924bda08e0d21", 
-                    "realm": "", 
-                    "x": 240, 
-                    "y": -300
-                }, 
                 {
                     "connected_action_regions": [
                         {
@@ -16064,7 +16053,7 @@
                         }
                     ], 
                     "connected_points": [
-                        "c31924bda08e0d21"
+                        "cdb9c4ba82f471dd"
                     ], 
                     "point_id": "c63bcb2dd435e6be", 
                     "realm": "", 
@@ -16076,17 +16065,28 @@
                         {
                             "action_region_index": 0, 
                             "body_index": 0, 
-                            "instance_id": "82dbaeff9ad2a962", 
+                            "instance_id": "c3477e37956e15a7", 
                             "order": 0, 
                             "signal": ""
                         }
                     ], 
                     "connected_points": [
-                        "c31924bda08e0d21"
+                        "cdb9c4ba82f471dd"
                     ], 
                     "point_id": "c8bc5d99fe853f65", 
                     "realm": "", 
                     "x": 270, 
+                    "y": -300
+                }, 
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "c63bcb2dd435e6be", 
+                        "c8bc5d99fe853f65"
+                    ], 
+                    "point_id": "cdb9c4ba82f471dd", 
+                    "realm": "", 
+                    "x": 240, 
                     "y": -300
                 }
             ], 
@@ -16486,6 +16486,65 @@
                     "realm": "", 
                     "x": -440, 
                     "y": -290
+                }
+            ], 
+            "realm": "", 
+            "signals": [
+                ""
+            ]
+        }, 
+        {
+            "annotations": [], 
+            "attributes": {}, 
+            "net_id": "b54c5a8f44509a5b", 
+            "net_type": "nets", 
+            "points": [
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 0, 
+                            "body_index": 0, 
+                            "instance_id": "aac74423294abaec", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "e6b68eebe2491dc1"
+                    ], 
+                    "point_id": "a7dddee710f9418b", 
+                    "realm": "", 
+                    "x": 10, 
+                    "y": -300
+                }, 
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "a7dddee710f9418b", 
+                        "f4270a83b6e0c611"
+                    ], 
+                    "point_id": "e6b68eebe2491dc1", 
+                    "realm": "", 
+                    "x": -20, 
+                    "y": -300
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 0, 
+                            "body_index": 0, 
+                            "instance_id": "43ba22b84d1363ac", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "e6b68eebe2491dc1"
+                    ], 
+                    "point_id": "f4270a83b6e0c611", 
+                    "realm": "", 
+                    "x": -20, 
+                    "y": -330
                 }
             ], 
             "realm": "", 
@@ -17034,124 +17093,6 @@
                     "realm": "", 
                     "x": 300, 
                     "y": 20
-                }
-            ], 
-            "realm": "", 
-            "signals": [
-                ""
-            ]
-        }, 
-        {
-            "annotations": [], 
-            "attributes": {}, 
-            "net_id": "13ae4f5c7ba2c07a", 
-            "net_type": "nets", 
-            "points": [
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 0, 
-                            "body_index": 0, 
-                            "instance_id": "15d3118182364169", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "f2d6e1f7cabce1e5"
-                    ], 
-                    "point_id": "2920db887feefa32", 
-                    "realm": "", 
-                    "x": 140, 
-                    "y": -300
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 0, 
-                            "body_index": 0, 
-                            "instance_id": "59e5f14e924ed41d", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "f2d6e1f7cabce1e5"
-                    ], 
-                    "point_id": "c8587523cef0dbad", 
-                    "realm": "", 
-                    "x": 120, 
-                    "y": -270
-                }, 
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "2920db887feefa32", 
-                        "c8587523cef0dbad"
-                    ], 
-                    "point_id": "f2d6e1f7cabce1e5", 
-                    "realm": "", 
-                    "x": 120, 
-                    "y": -300
-                }
-            ], 
-            "realm": "", 
-            "signals": [
-                ""
-            ]
-        }, 
-        {
-            "annotations": [], 
-            "attributes": {}, 
-            "net_id": "3274557d76fa89ee", 
-            "net_type": "nets", 
-            "points": [
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "a7dddee710f9418b", 
-                        "f4270a83b6e0c611"
-                    ], 
-                    "point_id": "618e8119d0e30e74", 
-                    "realm": "", 
-                    "x": -20, 
-                    "y": -300
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 0, 
-                            "body_index": 0, 
-                            "instance_id": "8cad6e13eb1ba22a", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "618e8119d0e30e74"
-                    ], 
-                    "point_id": "a7dddee710f9418b", 
-                    "realm": "", 
-                    "x": 10, 
-                    "y": -300
-                }, 
-                {
-                    "connected_action_regions": [
-                        {
-                            "action_region_index": 0, 
-                            "body_index": 0, 
-                            "instance_id": "43ba22b84d1363ac", 
-                            "order": 0, 
-                            "signal": ""
-                        }
-                    ], 
-                    "connected_points": [
-                        "618e8119d0e30e74"
-                    ], 
-                    "point_id": "f4270a83b6e0c611", 
-                    "realm": "", 
-                    "x": -20, 
-                    "y": -330
                 }
             ], 
             "realm": "", 
@@ -17910,6 +17851,65 @@
         {
             "annotations": [], 
             "attributes": {}, 
+            "net_id": "6b855a5e04732400", 
+            "net_type": "nets", 
+            "points": [
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 0, 
+                            "body_index": 0, 
+                            "instance_id": "b241442b682e5fd9", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "8afdf4f5b56d059f"
+                    ], 
+                    "point_id": "2920db887feefa32", 
+                    "realm": "", 
+                    "x": 140, 
+                    "y": -300
+                }, 
+                {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "2920db887feefa32", 
+                        "c8587523cef0dbad"
+                    ], 
+                    "point_id": "8afdf4f5b56d059f", 
+                    "realm": "", 
+                    "x": 120, 
+                    "y": -300
+                }, 
+                {
+                    "connected_action_regions": [
+                        {
+                            "action_region_index": 0, 
+                            "body_index": 0, 
+                            "instance_id": "59e5f14e924ed41d", 
+                            "order": 0, 
+                            "signal": ""
+                        }
+                    ], 
+                    "connected_points": [
+                        "8afdf4f5b56d059f"
+                    ], 
+                    "point_id": "c8587523cef0dbad", 
+                    "realm": "", 
+                    "x": 120, 
+                    "y": -270
+                }
+            ], 
+            "realm": "", 
+            "signals": [
+                ""
+            ]
+        }, 
+        {
+            "annotations": [], 
+            "attributes": {}, 
             "net_id": "1c9c610ae6fda9c0", 
             "net_type": "nets", 
             "points": [
@@ -18065,7 +18065,7 @@
         {
             "annotations": [], 
             "attributes": {}, 
-            "net_id": "a91b3974b75df657", 
+            "net_id": "71518c281df15e2e", 
             "net_type": "nets", 
             "points": [
                 {
@@ -18079,7 +18079,7 @@
                         }
                     ], 
                     "connected_points": [
-                        "bd77854a49204954"
+                        "653d3016e38ce12d"
                     ], 
                     "point_id": "2d556ca49c7ac068", 
                     "realm": "", 
@@ -18097,7 +18097,7 @@
                         }
                     ], 
                     "connected_points": [
-                        "bd77854a49204954"
+                        "653d3016e38ce12d"
                     ], 
                     "point_id": "3939d09a62077f6b", 
                     "realm": "", 
@@ -18110,7 +18110,7 @@
                         "2d556ca49c7ac068", 
                         "3939d09a62077f6b"
                     ], 
-                    "point_id": "bd77854a49204954", 
+                    "point_id": "653d3016e38ce12d", 
                     "realm": "", 
                     "x": -290, 
                     "y": -320
@@ -18124,20 +18124,9 @@
         {
             "annotations": [], 
             "attributes": {}, 
-            "net_id": "a9df58aaa5fd5eb7", 
+            "net_id": "30a51eb7da509e2f", 
             "net_type": "nets", 
             "points": [
-                {
-                    "connected_action_regions": [], 
-                    "connected_points": [
-                        "5da23c9e7b8ae074", 
-                        "c79c68806dbf2c2c"
-                    ], 
-                    "point_id": "33e10cb4b3c892ef", 
-                    "realm": "", 
-                    "x": -140, 
-                    "y": -300
-                }, 
                 {
                     "connected_action_regions": [
                         {
@@ -18149,7 +18138,7 @@
                         }
                     ], 
                     "connected_points": [
-                        "33e10cb4b3c892ef"
+                        "aa9b4aa9cc655277"
                     ], 
                     "point_id": "5da23c9e7b8ae074", 
                     "realm": "", 
@@ -18157,17 +18146,28 @@
                     "y": -330
                 }, 
                 {
+                    "connected_action_regions": [], 
+                    "connected_points": [
+                        "5da23c9e7b8ae074", 
+                        "c79c68806dbf2c2c"
+                    ], 
+                    "point_id": "aa9b4aa9cc655277", 
+                    "realm": "", 
+                    "x": -140, 
+                    "y": -300
+                }, 
+                {
                     "connected_action_regions": [
                         {
                             "action_region_index": 0, 
                             "body_index": 0, 
-                            "instance_id": "2d66ac7108eb2d37", 
+                            "instance_id": "f9bbf3315508fa7f", 
                             "order": 0, 
                             "signal": ""
                         }
                     ], 
                     "connected_points": [
-                        "33e10cb4b3c892ef"
+                        "aa9b4aa9cc655277"
                     ], 
                     "point_id": "c79c68806dbf2c2c", 
                     "realm": "", 
@@ -18434,7 +18434,7 @@
                 "font_size": 2000000, 
                 "rotation": 0.0, 
                 "styles": {}, 
-                "text": "Version 1.1.1", 
+                "text": "Version 1.2.0", 
                 "type": "label", 
                 "x": 0, 
                 "y": 0
@@ -18442,7 +18442,7 @@
             "layer": "bottom silkscreen", 
             "realm": "", 
             "rotation": 0.0, 
-            "value": "Version 1.1.1", 
+            "value": "Version 1.2.0", 
             "visible": "true", 
             "x": 20899480, 
             "y": 122522173
@@ -18493,43 +18493,59 @@
                             {
                                 "points": [
                                     {
-                                        "x": 10496662, 
-                                        "y": 113135799
+                                        "x": 10635289, 
+                                        "y": 115638349
                                     }, 
                                     {
-                                        "x": 10981094, 
-                                        "y": 113019497
+                                        "x": 11262590, 
+                                        "y": 115531766
                                     }, 
                                     {
-                                        "x": 11441369, 
-                                        "y": 112828845
+                                        "x": 11874012, 
+                                        "y": 115355619
                                     }, 
                                     {
-                                        "x": 11866152, 
-                                        "y": 112568538
+                                        "x": 12461868, 
+                                        "y": 115112121
                                     }, 
                                     {
-                                        "x": 12244984, 
-                                        "y": 112244984
+                                        "x": 13018764, 
+                                        "y": 114804335
                                     }, 
                                     {
-                                        "x": 12568538, 
-                                        "y": 111866152
+                                        "x": 13537697, 
+                                        "y": 114436132
                                     }, 
                                     {
-                                        "x": 12828845, 
-                                        "y": 111441369
+                                        "x": 14012142, 
+                                        "y": 114012142
                                     }, 
                                     {
-                                        "x": 13019497, 
-                                        "y": 110981094
+                                        "x": 14436132, 
+                                        "y": 113537697
                                     }, 
                                     {
-                                        "x": 13135799, 
-                                        "y": 110496662
+                                        "x": 14804335, 
+                                        "y": 113018764
                                     }, 
                                     {
-                                        "x": 13168390, 
+                                        "x": 15112121, 
+                                        "y": 112461868
+                                    }, 
+                                    {
+                                        "x": 15355619, 
+                                        "y": 111874012
+                                    }, 
+                                    {
+                                        "x": 15531766, 
+                                        "y": 111262590
+                                    }, 
+                                    {
+                                        "x": 15638349, 
+                                        "y": 110635289
+                                    }, 
+                                    {
+                                        "x": 15669390, 
                                         "y": 110082550
                                     }, 
                                     {
@@ -18538,7 +18554,7 @@
                                     }, 
                                     {
                                         "x": 10082550, 
-                                        "y": 113168390
+                                        "y": 115669390
                                     }
                                 ]
                             }, 
@@ -18549,99 +18565,131 @@
                                         "y": 110082550
                                     }, 
                                     {
-                                        "x": 6831610, 
+                                        "x": 4330610, 
                                         "y": 110082550
                                     }, 
                                     {
-                                        "x": 6864201, 
-                                        "y": 110496662
+                                        "x": 4361651, 
+                                        "y": 110635289
                                     }, 
                                     {
-                                        "x": 6980503, 
-                                        "y": 110981094
+                                        "x": 4468234, 
+                                        "y": 111262590
                                     }, 
                                     {
-                                        "x": 7171155, 
-                                        "y": 111441369
+                                        "x": 4644381, 
+                                        "y": 111874012
                                     }, 
                                     {
-                                        "x": 7431462, 
-                                        "y": 111866152
+                                        "x": 4887879, 
+                                        "y": 112461868
                                     }, 
                                     {
-                                        "x": 7755016, 
-                                        "y": 112244984
+                                        "x": 5195665, 
+                                        "y": 113018764
                                     }, 
                                     {
-                                        "x": 8133848, 
-                                        "y": 112568538
+                                        "x": 5563868, 
+                                        "y": 113537697
                                     }, 
                                     {
-                                        "x": 8558631, 
-                                        "y": 112828845
+                                        "x": 5987858, 
+                                        "y": 114012142
                                     }, 
                                     {
-                                        "x": 9018906, 
-                                        "y": 113019497
+                                        "x": 6462303, 
+                                        "y": 114436132
                                     }, 
                                     {
-                                        "x": 9503338, 
-                                        "y": 113135799
+                                        "x": 6981236, 
+                                        "y": 114804335
+                                    }, 
+                                    {
+                                        "x": 7538132, 
+                                        "y": 115112121
+                                    }, 
+                                    {
+                                        "x": 8125988, 
+                                        "y": 115355619
+                                    }, 
+                                    {
+                                        "x": 8737410, 
+                                        "y": 115531766
+                                    }, 
+                                    {
+                                        "x": 9364711, 
+                                        "y": 115638349
                                     }, 
                                     {
                                         "x": 9917450, 
-                                        "y": 113168390
+                                        "y": 115669390
                                     }
                                 ]
                             }, 
                             {
                                 "points": [
                                     {
-                                        "x": 13135799, 
-                                        "y": 109503338
+                                        "x": 15638349, 
+                                        "y": 109364711
                                     }, 
                                     {
-                                        "x": 13019497, 
-                                        "y": 109018906
+                                        "x": 15531766, 
+                                        "y": 108737410
                                     }, 
                                     {
-                                        "x": 12828845, 
-                                        "y": 108558631
+                                        "x": 15355619, 
+                                        "y": 108125988
                                     }, 
                                     {
-                                        "x": 12568538, 
-                                        "y": 108133848
+                                        "x": 15112121, 
+                                        "y": 107538132
                                     }, 
                                     {
-                                        "x": 12244984, 
-                                        "y": 107755016
+                                        "x": 14804335, 
+                                        "y": 106981236
                                     }, 
                                     {
-                                        "x": 11866152, 
-                                        "y": 107431462
+                                        "x": 14436132, 
+                                        "y": 106462303
                                     }, 
                                     {
-                                        "x": 11441369, 
-                                        "y": 107171155
+                                        "x": 14012142, 
+                                        "y": 105987858
                                     }, 
                                     {
-                                        "x": 10981094, 
-                                        "y": 106980503
+                                        "x": 13537697, 
+                                        "y": 105563868
                                     }, 
                                     {
-                                        "x": 10496662, 
-                                        "y": 106864201
+                                        "x": 13018764, 
+                                        "y": 105195665
+                                    }, 
+                                    {
+                                        "x": 12461868, 
+                                        "y": 104887879
+                                    }, 
+                                    {
+                                        "x": 11874012, 
+                                        "y": 104644381
+                                    }, 
+                                    {
+                                        "x": 11262590, 
+                                        "y": 104468234
+                                    }, 
+                                    {
+                                        "x": 10635289, 
+                                        "y": 104361651
                                     }, 
                                     {
                                         "x": 10082550, 
-                                        "y": 106831610
+                                        "y": 104330610
                                     }, 
                                     {
                                         "x": 10082550, 
                                         "y": 109917450
                                     }, 
                                     {
-                                        "x": 13168390, 
+                                        "x": 15669390, 
                                         "y": 109917450
                                     }
                                 ]
@@ -18650,46 +18698,62 @@
                                 "points": [
                                     {
                                         "x": 9917450, 
-                                        "y": 106831610
+                                        "y": 104330610
                                     }, 
                                     {
-                                        "x": 9503338, 
-                                        "y": 106864201
+                                        "x": 9364711, 
+                                        "y": 104361651
                                     }, 
                                     {
-                                        "x": 9018906, 
-                                        "y": 106980503
+                                        "x": 8737410, 
+                                        "y": 104468234
                                     }, 
                                     {
-                                        "x": 8558631, 
-                                        "y": 107171155
+                                        "x": 8125988, 
+                                        "y": 104644381
                                     }, 
                                     {
-                                        "x": 8133848, 
-                                        "y": 107431462
+                                        "x": 7538132, 
+                                        "y": 104887879
                                     }, 
                                     {
-                                        "x": 7755016, 
-                                        "y": 107755016
+                                        "x": 6981236, 
+                                        "y": 105195665
                                     }, 
                                     {
-                                        "x": 7431462, 
-                                        "y": 108133848
+                                        "x": 6462303, 
+                                        "y": 105563868
                                     }, 
                                     {
-                                        "x": 7171155, 
-                                        "y": 108558631
+                                        "x": 5987858, 
+                                        "y": 105987858
                                     }, 
                                     {
-                                        "x": 6980503, 
-                                        "y": 109018906
+                                        "x": 5563868, 
+                                        "y": 106462303
                                     }, 
                                     {
-                                        "x": 6864201, 
-                                        "y": 109503338
+                                        "x": 5195665, 
+                                        "y": 106981236
                                     }, 
                                     {
-                                        "x": 6831610, 
+                                        "x": 4887879, 
+                                        "y": 107538132
+                                    }, 
+                                    {
+                                        "x": 4644381, 
+                                        "y": 108125988
+                                    }, 
+                                    {
+                                        "x": 4468234, 
+                                        "y": 108737410
+                                    }, 
+                                    {
+                                        "x": 4361651, 
+                                        "y": 109364711
+                                    }, 
+                                    {
+                                        "x": 4330610, 
                                         "y": 109917450
                                     }, 
                                     {
@@ -19181,76 +19245,112 @@
                             {
                                 "points": [
                                     {
-                                        "x": 10496662, 
-                                        "y": 93135799
+                                        "x": 10635289, 
+                                        "y": 95638349
                                     }, 
                                     {
-                                        "x": 10981094, 
-                                        "y": 93019497
+                                        "x": 11262590, 
+                                        "y": 95531766
                                     }, 
                                     {
-                                        "x": 11441369, 
-                                        "y": 92828845
+                                        "x": 11874012, 
+                                        "y": 95355619
                                     }, 
                                     {
-                                        "x": 11866152, 
-                                        "y": 92568538
+                                        "x": 12461868, 
+                                        "y": 95112121
                                     }, 
                                     {
-                                        "x": 12244984, 
-                                        "y": 92244984
+                                        "x": 13018764, 
+                                        "y": 94804335
                                     }, 
                                     {
-                                        "x": 12568538, 
-                                        "y": 91866152
+                                        "x": 13537697, 
+                                        "y": 94436132
                                     }, 
                                     {
-                                        "x": 12828845, 
-                                        "y": 91441369
+                                        "x": 14012142, 
+                                        "y": 94012142
                                     }, 
                                     {
-                                        "x": 13019497, 
-                                        "y": 90981094
+                                        "x": 14436132, 
+                                        "y": 93537697
                                     }, 
                                     {
-                                        "x": 13135799, 
-                                        "y": 90496662
+                                        "x": 14804335, 
+                                        "y": 93018764
                                     }, 
                                     {
-                                        "x": 13174887, 
+                                        "x": 15112121, 
+                                        "y": 92461868
+                                    }, 
+                                    {
+                                        "x": 15355619, 
+                                        "y": 91874012
+                                    }, 
+                                    {
+                                        "x": 15531766, 
+                                        "y": 91262590
+                                    }, 
+                                    {
+                                        "x": 15638349, 
+                                        "y": 90635289
+                                    }, 
+                                    {
+                                        "x": 15674026, 
                                         "y": 90000000
                                     }, 
                                     {
-                                        "x": 13135799, 
-                                        "y": 89503338
+                                        "x": 15638349, 
+                                        "y": 89364711
                                     }, 
                                     {
-                                        "x": 13019497, 
-                                        "y": 89018906
+                                        "x": 15531766, 
+                                        "y": 88737410
                                     }, 
                                     {
-                                        "x": 12828845, 
-                                        "y": 88558631
+                                        "x": 15355619, 
+                                        "y": 88125988
                                     }, 
                                     {
-                                        "x": 12568538, 
-                                        "y": 88133848
+                                        "x": 15112121, 
+                                        "y": 87538132
                                     }, 
                                     {
-                                        "x": 12244984, 
-                                        "y": 87755016
+                                        "x": 14804335, 
+                                        "y": 86981236
                                     }, 
                                     {
-                                        "x": 11866152, 
-                                        "y": 87431462
+                                        "x": 14436132, 
+                                        "y": 86462303
                                     }, 
                                     {
-                                        "x": 11441369, 
-                                        "y": 87171155
+                                        "x": 14012142, 
+                                        "y": 85987858
+                                    }, 
+                                    {
+                                        "x": 13537697, 
+                                        "y": 85563868
+                                    }, 
+                                    {
+                                        "x": 13018764, 
+                                        "y": 85195665
+                                    }, 
+                                    {
+                                        "x": 12461868, 
+                                        "y": 84887879
+                                    }, 
+                                    {
+                                        "x": 11874012, 
+                                        "y": 84644381
+                                    }, 
+                                    {
+                                        "x": 11262590, 
+                                        "y": 84468234
                                     }, 
                                     {
                                         "x": 11092815, 
-                                        "y": 87026779
+                                        "y": 84439388
                                     }, 
                                     {
                                         "x": 11092815, 
@@ -19682,79 +19782,111 @@
                                     }, 
                                     {
                                         "x": 8719185, 
-                                        "y": 87104651
+                                        "y": 84473485
                                     }, 
                                     {
-                                        "x": 8558631, 
-                                        "y": 87171155
+                                        "x": 8125988, 
+                                        "y": 84644381
                                     }, 
                                     {
-                                        "x": 8133848, 
-                                        "y": 87431462
+                                        "x": 7538132, 
+                                        "y": 84887879
                                     }, 
                                     {
-                                        "x": 7755016, 
-                                        "y": 87755016
+                                        "x": 6981236, 
+                                        "y": 85195665
                                     }, 
                                     {
-                                        "x": 7431462, 
-                                        "y": 88133848
+                                        "x": 6462303, 
+                                        "y": 85563868
                                     }, 
                                     {
-                                        "x": 7171155, 
-                                        "y": 88558631
+                                        "x": 5987858, 
+                                        "y": 85987858
                                     }, 
                                     {
-                                        "x": 6980503, 
-                                        "y": 89018906
+                                        "x": 5563868, 
+                                        "y": 86462303
                                     }, 
                                     {
-                                        "x": 6864201, 
-                                        "y": 89503338
+                                        "x": 5195665, 
+                                        "y": 86981236
                                     }, 
                                     {
-                                        "x": 6825113, 
+                                        "x": 4887879, 
+                                        "y": 87538132
+                                    }, 
+                                    {
+                                        "x": 4644381, 
+                                        "y": 88125988
+                                    }, 
+                                    {
+                                        "x": 4468234, 
+                                        "y": 88737410
+                                    }, 
+                                    {
+                                        "x": 4361651, 
+                                        "y": 89364711
+                                    }, 
+                                    {
+                                        "x": 4325974, 
                                         "y": 90000000
                                     }, 
                                     {
-                                        "x": 6864201, 
-                                        "y": 90496662
+                                        "x": 4361651, 
+                                        "y": 90635289
                                     }, 
                                     {
-                                        "x": 6980503, 
-                                        "y": 90981094
+                                        "x": 4468234, 
+                                        "y": 91262590
                                     }, 
                                     {
-                                        "x": 7171155, 
-                                        "y": 91441369
+                                        "x": 4644381, 
+                                        "y": 91874012
                                     }, 
                                     {
-                                        "x": 7431462, 
-                                        "y": 91866152
+                                        "x": 4887879, 
+                                        "y": 92461868
                                     }, 
                                     {
-                                        "x": 7755016, 
-                                        "y": 92244984
+                                        "x": 5195665, 
+                                        "y": 93018764
                                     }, 
                                     {
-                                        "x": 8133848, 
-                                        "y": 92568538
+                                        "x": 5563868, 
+                                        "y": 93537697
                                     }, 
                                     {
-                                        "x": 8558631, 
-                                        "y": 92828845
+                                        "x": 5987858, 
+                                        "y": 94012142
                                     }, 
                                     {
-                                        "x": 9018906, 
-                                        "y": 93019497
+                                        "x": 6462303, 
+                                        "y": 94436132
                                     }, 
                                     {
-                                        "x": 9503338, 
-                                        "y": 93135799
+                                        "x": 6981236, 
+                                        "y": 94804335
+                                    }, 
+                                    {
+                                        "x": 7538132, 
+                                        "y": 95112121
+                                    }, 
+                                    {
+                                        "x": 8125988, 
+                                        "y": 95355619
+                                    }, 
+                                    {
+                                        "x": 8737410, 
+                                        "y": 95531766
+                                    }, 
+                                    {
+                                        "x": 9364711, 
+                                        "y": 95638349
                                     }, 
                                     {
                                         "x": 10000000, 
-                                        "y": 93174887
+                                        "y": 95674026
                                     }
                                 ]
                             }, 
@@ -20685,76 +20817,112 @@
                             {
                                 "points": [
                                     {
-                                        "x": 30496662, 
-                                        "y": 93135799
+                                        "x": 30635289, 
+                                        "y": 95638349
                                     }, 
                                     {
-                                        "x": 30981094, 
-                                        "y": 93019497
+                                        "x": 31262590, 
+                                        "y": 95531766
                                     }, 
                                     {
-                                        "x": 31441369, 
-                                        "y": 92828845
+                                        "x": 31874012, 
+                                        "y": 95355619
                                     }, 
                                     {
-                                        "x": 31866152, 
-                                        "y": 92568538
+                                        "x": 32461868, 
+                                        "y": 95112121
                                     }, 
                                     {
-                                        "x": 32244984, 
-                                        "y": 92244984
+                                        "x": 33018764, 
+                                        "y": 94804335
                                     }, 
                                     {
-                                        "x": 32568538, 
-                                        "y": 91866152
+                                        "x": 33537697, 
+                                        "y": 94436132
                                     }, 
                                     {
-                                        "x": 32828845, 
-                                        "y": 91441369
+                                        "x": 34012142, 
+                                        "y": 94012142
                                     }, 
                                     {
-                                        "x": 33019497, 
-                                        "y": 90981094
+                                        "x": 34436132, 
+                                        "y": 93537697
                                     }, 
                                     {
-                                        "x": 33135799, 
-                                        "y": 90496662
+                                        "x": 34804335, 
+                                        "y": 93018764
                                     }, 
                                     {
-                                        "x": 33174887, 
+                                        "x": 35112121, 
+                                        "y": 92461868
+                                    }, 
+                                    {
+                                        "x": 35355619, 
+                                        "y": 91874012
+                                    }, 
+                                    {
+                                        "x": 35531766, 
+                                        "y": 91262590
+                                    }, 
+                                    {
+                                        "x": 35638349, 
+                                        "y": 90635289
+                                    }, 
+                                    {
+                                        "x": 35674026, 
                                         "y": 90000000
                                     }, 
                                     {
-                                        "x": 33135799, 
-                                        "y": 89503338
+                                        "x": 35638349, 
+                                        "y": 89364711
                                     }, 
                                     {
-                                        "x": 33019497, 
-                                        "y": 89018906
+                                        "x": 35531766, 
+                                        "y": 88737410
                                     }, 
                                     {
-                                        "x": 32828845, 
-                                        "y": 88558631
+                                        "x": 35355619, 
+                                        "y": 88125988
                                     }, 
                                     {
-                                        "x": 32568538, 
-                                        "y": 88133848
+                                        "x": 35112121, 
+                                        "y": 87538132
                                     }, 
                                     {
-                                        "x": 32244984, 
-                                        "y": 87755016
+                                        "x": 34804335, 
+                                        "y": 86981236
                                     }, 
                                     {
-                                        "x": 31866152, 
-                                        "y": 87431462
+                                        "x": 34436132, 
+                                        "y": 86462303
                                     }, 
                                     {
-                                        "x": 31441369, 
-                                        "y": 87171155
+                                        "x": 34012142, 
+                                        "y": 85987858
+                                    }, 
+                                    {
+                                        "x": 33537697, 
+                                        "y": 85563868
+                                    }, 
+                                    {
+                                        "x": 33018764, 
+                                        "y": 85195665
+                                    }, 
+                                    {
+                                        "x": 32461868, 
+                                        "y": 84887879
+                                    }, 
+                                    {
+                                        "x": 31874012, 
+                                        "y": 84644381
+                                    }, 
+                                    {
+                                        "x": 31262590, 
+                                        "y": 84468234
                                     }, 
                                     {
                                         "x": 31031815, 
-                                        "y": 87001512
+                                        "y": 84429024
                                     }, 
                                     {
                                         "x": 31031815, 
@@ -21166,79 +21334,111 @@
                                     }, 
                                     {
                                         "x": 28658185, 
-                                        "y": 87129918
+                                        "y": 84491058
                                     }, 
                                     {
-                                        "x": 28558631, 
-                                        "y": 87171155
+                                        "x": 28125988, 
+                                        "y": 84644381
                                     }, 
                                     {
-                                        "x": 28133848, 
-                                        "y": 87431462
+                                        "x": 27538132, 
+                                        "y": 84887879
                                     }, 
                                     {
-                                        "x": 27755016, 
-                                        "y": 87755016
+                                        "x": 26981236, 
+                                        "y": 85195665
                                     }, 
                                     {
-                                        "x": 27431462, 
-                                        "y": 88133848
+                                        "x": 26462303, 
+                                        "y": 85563868
                                     }, 
                                     {
-                                        "x": 27171155, 
-                                        "y": 88558631
+                                        "x": 25987858, 
+                                        "y": 85987858
                                     }, 
                                     {
-                                        "x": 26980503, 
-                                        "y": 89018906
+                                        "x": 25563868, 
+                                        "y": 86462303
                                     }, 
                                     {
-                                        "x": 26864201, 
-                                        "y": 89503338
+                                        "x": 25195665, 
+                                        "y": 86981236
                                     }, 
                                     {
-                                        "x": 26825113, 
+                                        "x": 24887879, 
+                                        "y": 87538132
+                                    }, 
+                                    {
+                                        "x": 24644381, 
+                                        "y": 88125988
+                                    }, 
+                                    {
+                                        "x": 24468234, 
+                                        "y": 88737410
+                                    }, 
+                                    {
+                                        "x": 24361651, 
+                                        "y": 89364711
+                                    }, 
+                                    {
+                                        "x": 24325974, 
                                         "y": 90000000
                                     }, 
                                     {
-                                        "x": 26864201, 
-                                        "y": 90496662
+                                        "x": 24361651, 
+                                        "y": 90635289
                                     }, 
                                     {
-                                        "x": 26980503, 
-                                        "y": 90981094
+                                        "x": 24468234, 
+                                        "y": 91262590
                                     }, 
                                     {
-                                        "x": 27171155, 
-                                        "y": 91441369
+                                        "x": 24644381, 
+                                        "y": 91874012
                                     }, 
                                     {
-                                        "x": 27431462, 
-                                        "y": 91866152
+                                        "x": 24887879, 
+                                        "y": 92461868
                                     }, 
                                     {
-                                        "x": 27755016, 
-                                        "y": 92244984
+                                        "x": 25195665, 
+                                        "y": 93018764
                                     }, 
                                     {
-                                        "x": 28133848, 
-                                        "y": 92568538
+                                        "x": 25563868, 
+                                        "y": 93537697
                                     }, 
                                     {
-                                        "x": 28558631, 
-                                        "y": 92828845
+                                        "x": 25987858, 
+                                        "y": 94012142
                                     }, 
                                     {
-                                        "x": 29018906, 
-                                        "y": 93019497
+                                        "x": 26462303, 
+                                        "y": 94436132
                                     }, 
                                     {
-                                        "x": 29503338, 
-                                        "y": 93135799
+                                        "x": 26981236, 
+                                        "y": 94804335
+                                    }, 
+                                    {
+                                        "x": 27538132, 
+                                        "y": 95112121
+                                    }, 
+                                    {
+                                        "x": 28125988, 
+                                        "y": 95355619
+                                    }, 
+                                    {
+                                        "x": 28737410, 
+                                        "y": 95531766
+                                    }, 
+                                    {
+                                        "x": 29364711, 
+                                        "y": 95638349
                                     }, 
                                     {
                                         "x": 30000000, 
-                                        "y": 93174887
+                                        "y": 95674026
                                     }
                                 ]
                             }, 
@@ -24187,152 +24387,220 @@
                                     "y": 100341169
                                 }, 
                                 {
-                                    "x": 30306511, 
-                                    "y": 106849236
+                                    "x": 32346216, 
+                                    "y": 104839974
+                                }, 
+                                {
+                                    "x": 31874012, 
+                                    "y": 104644381
+                                }, 
+                                {
+                                    "x": 31262590, 
+                                    "y": 104468234
+                                }, 
+                                {
+                                    "x": 30635289, 
+                                    "y": 104361651
                                 }, 
                                 {
                                     "x": 30000000, 
-                                    "y": 106825113
+                                    "y": 104325974
                                 }, 
                                 {
-                                    "x": 29503338, 
-                                    "y": 106864201
+                                    "x": 29364711, 
+                                    "y": 104361651
                                 }, 
                                 {
-                                    "x": 29018906, 
-                                    "y": 106980503
+                                    "x": 28737410, 
+                                    "y": 104468234
                                 }, 
                                 {
-                                    "x": 28558631, 
-                                    "y": 107171155
+                                    "x": 28125988, 
+                                    "y": 104644381
                                 }, 
                                 {
-                                    "x": 28133848, 
-                                    "y": 107431462
+                                    "x": 27538132, 
+                                    "y": 104887879
                                 }, 
                                 {
-                                    "x": 27755016, 
-                                    "y": 107755016
+                                    "x": 26981236, 
+                                    "y": 105195665
                                 }, 
                                 {
-                                    "x": 27431462, 
-                                    "y": 108133848
+                                    "x": 26462303, 
+                                    "y": 105563868
                                 }, 
                                 {
-                                    "x": 27171155, 
-                                    "y": 108558631
+                                    "x": 25987858, 
+                                    "y": 105987858
                                 }, 
                                 {
-                                    "x": 26980503, 
-                                    "y": 109018906
+                                    "x": 25563868, 
+                                    "y": 106462303
                                 }, 
                                 {
-                                    "x": 26864201, 
-                                    "y": 109503338
+                                    "x": 25195665, 
+                                    "y": 106981236
                                 }, 
                                 {
-                                    "x": 26825113, 
+                                    "x": 24887879, 
+                                    "y": 107538132
+                                }, 
+                                {
+                                    "x": 24644381, 
+                                    "y": 108125988
+                                }, 
+                                {
+                                    "x": 24468234, 
+                                    "y": 108737410
+                                }, 
+                                {
+                                    "x": 24361651, 
+                                    "y": 109364711
+                                }, 
+                                {
+                                    "x": 24325974, 
                                     "y": 110000000
                                 }, 
                                 {
-                                    "x": 26864201, 
-                                    "y": 110496662
+                                    "x": 24361651, 
+                                    "y": 110635289
                                 }, 
                                 {
-                                    "x": 26980503, 
-                                    "y": 110981094
+                                    "x": 24468234, 
+                                    "y": 111262590
                                 }, 
                                 {
-                                    "x": 27171155, 
-                                    "y": 111441369
+                                    "x": 24644381, 
+                                    "y": 111874012
                                 }, 
                                 {
-                                    "x": 27431462, 
-                                    "y": 111866152
+                                    "x": 24887879, 
+                                    "y": 112461868
                                 }, 
                                 {
-                                    "x": 27755016, 
-                                    "y": 112244984
+                                    "x": 25195665, 
+                                    "y": 113018764
                                 }, 
                                 {
-                                    "x": 28133848, 
-                                    "y": 112568538
+                                    "x": 25563868, 
+                                    "y": 113537697
                                 }, 
                                 {
-                                    "x": 28558631, 
-                                    "y": 112828845
+                                    "x": 25987858, 
+                                    "y": 114012142
                                 }, 
                                 {
-                                    "x": 29018906, 
-                                    "y": 113019497
+                                    "x": 26462303, 
+                                    "y": 114436132
                                 }, 
                                 {
-                                    "x": 29503338, 
-                                    "y": 113135799
+                                    "x": 26981236, 
+                                    "y": 114804335
+                                }, 
+                                {
+                                    "x": 27538132, 
+                                    "y": 115112121
+                                }, 
+                                {
+                                    "x": 28125988, 
+                                    "y": 115355619
+                                }, 
+                                {
+                                    "x": 28737410, 
+                                    "y": 115531766
+                                }, 
+                                {
+                                    "x": 29364711, 
+                                    "y": 115638349
                                 }, 
                                 {
                                     "x": 30000000, 
-                                    "y": 113174887
+                                    "y": 115674026
                                 }, 
                                 {
-                                    "x": 30496662, 
-                                    "y": 113135799
+                                    "x": 30635289, 
+                                    "y": 115638349
                                 }, 
                                 {
-                                    "x": 30981094, 
-                                    "y": 113019497
+                                    "x": 31262590, 
+                                    "y": 115531766
                                 }, 
                                 {
-                                    "x": 31441369, 
-                                    "y": 112828845
+                                    "x": 31874012, 
+                                    "y": 115355619
                                 }, 
                                 {
-                                    "x": 31866152, 
-                                    "y": 112568538
+                                    "x": 32461868, 
+                                    "y": 115112121
                                 }, 
                                 {
-                                    "x": 32244984, 
-                                    "y": 112244984
+                                    "x": 33018764, 
+                                    "y": 114804335
                                 }, 
                                 {
-                                    "x": 32568538, 
-                                    "y": 111866152
+                                    "x": 33537697, 
+                                    "y": 114436132
                                 }, 
                                 {
-                                    "x": 32828845, 
-                                    "y": 111441369
+                                    "x": 34012142, 
+                                    "y": 114012142
                                 }, 
                                 {
-                                    "x": 33019497, 
-                                    "y": 110981094
+                                    "x": 34436132, 
+                                    "y": 113537697
                                 }, 
                                 {
-                                    "x": 33135799, 
-                                    "y": 110496662
+                                    "x": 34804335, 
+                                    "y": 113018764
                                 }, 
                                 {
-                                    "x": 33174887, 
+                                    "x": 35112121, 
+                                    "y": 112461868
+                                }, 
+                                {
+                                    "x": 35355619, 
+                                    "y": 111874012
+                                }, 
+                                {
+                                    "x": 35531766, 
+                                    "y": 111262590
+                                }, 
+                                {
+                                    "x": 35638349, 
+                                    "y": 110635289
+                                }, 
+                                {
+                                    "x": 35674026, 
                                     "y": 110000000
                                 }, 
                                 {
-                                    "x": 33135799, 
-                                    "y": 109503338
+                                    "x": 35638349, 
+                                    "y": 109364711
                                 }, 
                                 {
-                                    "x": 33019497, 
-                                    "y": 109018906
+                                    "x": 35531766, 
+                                    "y": 108737410
                                 }, 
                                 {
-                                    "x": 32828845, 
-                                    "y": 108558631
+                                    "x": 35355619, 
+                                    "y": 108125988
                                 }, 
                                 {
-                                    "x": 32568538, 
-                                    "y": 108133848
+                                    "x": 35112121, 
+                                    "y": 107538132
                                 }, 
                                 {
-                                    "x": 32484577, 
-                                    "y": 108035543
+                                    "x": 34804335, 
+                                    "y": 106981236
+                                }, 
+                                {
+                                    "x": 34436132, 
+                                    "y": 106462303
+                                }, 
+                                {
+                                    "x": 34270174, 
+                                    "y": 106276596
                                 }, 
                                 {
                                     "x": 38932871, 
@@ -30432,21 +30700,6 @@
             "control_points": [], 
             "layer": "bottom copper", 
             "p1": {
-                "x": 28500000, 
-                "y": 14200000
-            }, 
-            "p2": {
-                "x": 28500000, 
-                "y": 21400000
-            }, 
-            "realm": "", 
-            "trace_type": "straight", 
-            "width": 508000.0
-        }, 
-        {
-            "control_points": [], 
-            "layer": "bottom copper", 
-            "p1": {
                 "x": 25119000, 
                 "y": 55372000
             }, 
@@ -30543,6 +30796,21 @@
             "p2": {
                 "x": 25527000, 
                 "y": 45593000
+            }, 
+            "realm": "", 
+            "trace_type": "straight", 
+            "width": 2032000.0
+        }, 
+        {
+            "control_points": [], 
+            "layer": "bottom copper", 
+            "p1": {
+                "x": 9906000, 
+                "y": 74041000
+            }, 
+            "p2": {
+                "x": 14224000, 
+                "y": 69723000
             }, 
             "realm": "", 
             "trace_type": "straight", 
@@ -30672,16 +30940,16 @@
             "control_points": [], 
             "layer": "bottom copper", 
             "p1": {
-                "x": 9906000, 
-                "y": 74041000
+                "x": 28500000, 
+                "y": 14200000
             }, 
             "p2": {
-                "x": 14224000, 
-                "y": 69723000
+                "x": 28500000, 
+                "y": 21400000
             }, 
             "realm": "", 
             "trace_type": "straight", 
-            "width": 2032000.0
+            "width": 508000.0
         }, 
         {
             "control_points": [], 
@@ -30912,6 +31180,21 @@
             "control_points": [], 
             "layer": "bottom copper", 
             "p1": {
+                "x": 10160000, 
+                "y": 105632000
+            }, 
+            "p2": {
+                "x": 10160000, 
+                "y": 106648000
+            }, 
+            "realm": "", 
+            "trace_type": "straight", 
+            "width": 2032000.0
+        }, 
+        {
+            "control_points": [], 
+            "layer": "bottom copper", 
+            "p1": {
                 "x": 22479000, 
                 "y": 56261000
             }, 
@@ -30942,12 +31225,12 @@
             "control_points": [], 
             "layer": "bottom copper", 
             "p1": {
-                "x": 14224000, 
-                "y": 47117000
+                "x": 9906000, 
+                "y": 89789000
             }, 
             "p2": {
-                "x": 14224000, 
-                "y": 53721000
+                "x": 9906000, 
+                "y": 74041000
             }, 
             "realm": "", 
             "trace_type": "straight", 
@@ -31002,12 +31285,12 @@
             "control_points": [], 
             "layer": "bottom copper", 
             "p1": {
-                "x": 9906000, 
-                "y": 89789000
+                "x": 14224000, 
+                "y": 47117000
             }, 
             "p2": {
-                "x": 9906000, 
-                "y": 74041000
+                "x": 14224000, 
+                "y": 53721000
             }, 
             "realm": "", 
             "trace_type": "straight", 
@@ -31042,21 +31325,6 @@
             "realm": "", 
             "trace_type": "straight", 
             "width": 508000.0
-        }, 
-        {
-            "control_points": [], 
-            "layer": "bottom copper", 
-            "p1": {
-                "x": 16383000, 
-                "y": 34925000
-            }, 
-            "p2": {
-                "x": 22733000, 
-                "y": 41275000
-            }, 
-            "realm": "", 
-            "trace_type": "straight", 
-            "width": 2032000.0
         }, 
         {
             "control_points": [], 
@@ -31107,12 +31375,12 @@
             "control_points": [], 
             "layer": "bottom copper", 
             "p1": {
-                "x": 10160000, 
-                "y": 105632000
+                "x": 16383000, 
+                "y": 34925000
             }, 
             "p2": {
-                "x": 10160000, 
-                "y": 106648000
+                "x": 22733000, 
+                "y": 41275000
             }, 
             "realm": "", 
             "trace_type": "straight", 

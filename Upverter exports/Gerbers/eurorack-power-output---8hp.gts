@@ -7,13 +7,11 @@
 %ADD12Rect-W2049999-H2049999-RO1.750*%
 D10*
 %LNtop solder mask_traces*%
-%LNtop solder mask component 82dbaeff9ad2a962*%
+%LNtop solder mask component c3477e37956e15a7*%
 G01*
 X30000Y110000D03*
-%LNtop solder mask component 15d3118182364169*%
+%LNtop solder mask component b241442b682e5fd9*%
 X30000Y90000D03*
-%LNtop solder mask component 2d66ac7108eb2d37*%
-X10000Y90000D03*
 %LNtop solder mask component 0a00c536e324cf6a*%
 D11*
 X14262Y66092D03*
@@ -33,8 +31,10 @@ X25038Y58908D03*
 X26834Y57112D03*
 D12*
 X12466Y67888D03*
-%LNtop solder mask component 8cad6e13eb1ba22a*%
+%LNtop solder mask component f9bbf3315508fa7f*%
 D10*
+X10000Y90000D03*
+%LNtop solder mask component aac74423294abaec*%
 X10000Y110000D03*
 %LNtop solder mask component 6f45595ed46c503a*%
 D11*
